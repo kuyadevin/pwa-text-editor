@@ -29,6 +29,26 @@ module.exports = () => {
         swSrc: "./src-sw.js",
         swDest: "src-sw.js",
       }),
+
+      // Create a manifest.json file
+      new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
+        name: "J.E.S.T. Text Editor",
+        short_name: "J.E.S.T",
+        description: "A text editor app!",
+        background_color: "#556b2f",
+        theme_color: "#556b2f",
+        start_url: "/",
+        publicPath: "/",
+        icons: [
+          {
+            src: path.resolve("src/images/logo.png"),
+            sizes: [96, 128, 192, 256, 384, 512],
+            destination: path.join("assests", "icons"),
+          },
+        ],
+      }),
     ],
 
     module: {
