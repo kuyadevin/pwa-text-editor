@@ -36,9 +36,12 @@ You will be prompted that the app is now listening, and you should be good to go
 
 - Type in a text editor
 
-## Photos
-- ![Service Worker]()
-- ![Manifest]()
+## Photos and Deployed
+
+Heroku Link
+- [Heroku Link](https://stark-peak-72278.herokuapp.com/)
+- ![Service Worker](https://github.com/kuyadevin/pwa-text-editor/blob/main/Screenshot%20(131).png)
+- ![Manifest](https://github.com/kuyadevin/pwa-text-editor/blob/main/Screenshot%20(133).png)
 
 
 ## Authors
