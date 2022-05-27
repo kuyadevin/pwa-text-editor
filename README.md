@@ -37,7 +37,8 @@ You will be prompted that the app is now listening, and you should be good to go
 - Type in a text editor
 
 ## Photos
-
+- ![Service Worker]()
+- ![Manifest]()
 
 
 ## Authors
